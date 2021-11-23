@@ -24,13 +24,13 @@
       <div class="sidebar-heading">Pedidos</div>
 
       <li class="nav-item">
-        <a class="nav-link" href="/criar_predido">
+        <a class="nav-link" href="/criar_pedido">
           <i class="fas fa-fw fa-history"></i>
           <span>Criar Pedido</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="/consultar_pedidos">
+        <a class="nav-link" href="/consultar_pedido">
           <i class="fas fa-fw fa-pen-alt"></i>
           <span>Consultar Pedidos</span></a>
       </li>

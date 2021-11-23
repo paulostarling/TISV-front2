@@ -7,11 +7,6 @@ import "bootstrap-vue/dist/bootstrap-vue.css";
 import VueSession from 'vue-session';
 import Sidebar from './template/Sidebar';
 import Navbar from './template/Navbar';
-import CpfField from './components/CpfField';
-import DateField from './components/DateField';
-import TextField from './components/TextField';
-import MoneyField from './components/MoneyField';
-import YesNoField from './components/YesNoField';
 import money from 'v-money'
 import VueTheMask from 'vue-the-mask';
 
@@ -25,11 +20,6 @@ Vue.prototype.$apiHeader = {'Content-Type': 'application/json'};
 
 Vue.component('app-sidebar',Sidebar);
 Vue.component('app-navbar',Navbar);
-Vue.component('cpf-field', CpfField);
-Vue.component('date-field', DateField); 
-Vue.component('text-field', TextField);
-Vue.component('money-field', MoneyField);
-Vue.component('yesno-field', YesNoField);
 
 new Vue({
     router,

@@ -5,6 +5,7 @@ import Produtos from "../views/Produtos.vue";
 import Login from "../views/Login.vue";
 import Users from "../views/Users.vue";
 import PedidoCreate from "../views/PedidoCreate.vue";
+import PedidoGeral from "../views/PedidoGeral.vue";
 
 Vue.use(VueRouter);
 
@@ -13,7 +14,8 @@ const routes = [
   { path: "/login", name: "Login", component: Login },
   { path: "/usuarios", name: "Usuarios", component: Users },
   { path: "/produtos", name: "Produtos", component: Produtos },
-  { path: "/criar_predido", name: "Pedido Create", component: PedidoCreate },
+  { path: "/criar_pedido", name: "Pedido Create", component: PedidoCreate },
+  { path: "/consultar_pedido", name: "Pedido Geral", component: PedidoGeral },
   { path: '*', redirect: '/' }
 ];
 
